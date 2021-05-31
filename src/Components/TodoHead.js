@@ -8,32 +8,35 @@ const TodoheadBlock = styled.div`
     padding-right: 32px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e9ecef;
+    font-family: sans-serif;
 
     h1 {
         margin: 0;
-        font-size: 36px;
+        font-weight: 700;
+        font-size: 32px;
         color: #343a40;
     }
 
     .day {
         margin-top: 4px;
         color: #868e96;
-        font-size: 21px;
+        font-weight: 700;
+        font-size: 20px;
     }
 
     .task-left {
         color: #20c997;
         font-size: 18px;
         margin-top: 40px;
-        font-weight: bold;
+        font-weight: 700;
     }
 `
 
 function TodoHead() {
     return(
         <TodoheadBlock>
-            <h1>2021년 05월 31일</h1>
-            <div className='day'>월요일</div>
+            <h1>2021년 06월 01일</h1>
+            <div className='day'>화요일</div>
             <div className='task-left'>할 일 2개 남음</div>
         </TodoheadBlock>
     )

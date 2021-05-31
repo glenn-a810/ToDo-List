@@ -72,6 +72,8 @@ const Input = styled.input`
     border: 1px solid #dee2e6;
     width: 100%;
     outline: none;
+    font-family: sans-serif;
+    font-weight: 300;
     font-size: 16px;
     box-sizing: border-box;
 `

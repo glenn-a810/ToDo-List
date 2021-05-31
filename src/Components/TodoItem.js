@@ -11,7 +11,7 @@ const Remove = styled.div`
     align-items: center;
     justify-content: center;
     color: #dee2e6;
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     &:hover {
         color: #ff6b6b;
@@ -32,15 +32,15 @@ const TodoItemBlock = styled.div`
 `
 
 const CheckCircle = styled.div`
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
     border: 1px solid #ced4da;
-    font-size: 24px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 16px;
     cursor: pointer;
     ${props => 
         props.done && css`
@@ -52,7 +52,9 @@ const CheckCircle = styled.div`
 
 const Text = styled.div`
     flex: 1;
-    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
     color: #495057;
     ${props => 
         props.done && css`

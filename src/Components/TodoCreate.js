@@ -34,7 +34,7 @@ const CircleButton = styled.button`
     align-items: center;
     justify-content: center;
 
-    transition: 0.25s, all ease-in;
+    transition: 0.125s, all ease-in;
     ${props => props.open && css`
         background: #ff6b6b;
         &:hover {

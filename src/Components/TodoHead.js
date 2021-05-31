@@ -32,10 +32,13 @@ const TodoheadBlock = styled.div`
     }
 `
 
+const today = new Date().toDateString()
+console.log(today)
+
 function TodoHead() {
     return(
         <TodoheadBlock>
-            <h1>2021년 06월 01일</h1>
+            <h1>{today}</h1>
             <div className='day'>화요일</div>
             <div className='task-left'>할 일 2개 남음</div>
         </TodoheadBlock>

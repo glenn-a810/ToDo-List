@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/github.io/ToDo-List/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/github.io/ToDo-List/static/js/main.8f424291.chunk.js",
-    "main.js.map": "/github.io/ToDo-List/static/js/main.8f424291.chunk.js.map",
-    "runtime-main.js": "/github.io/ToDo-List/static/js/runtime-main.ba560bf5.js",
-    "runtime-main.js.map": "/github.io/ToDo-List/static/js/runtime-main.ba560bf5.js.map",
-    "static/js/2.a7f1485e.chunk.js": "/github.io/ToDo-List/static/js/2.a7f1485e.chunk.js",
-    "static/js/2.a7f1485e.chunk.js.map": "/github.io/ToDo-List/static/js/2.a7f1485e.chunk.js.map",
-    "static/js/3.c68d6686.chunk.js": "/github.io/ToDo-List/static/js/3.c68d6686.chunk.js",
-    "static/js/3.c68d6686.chunk.js.map": "/github.io/ToDo-List/static/js/3.c68d6686.chunk.js.map",
-    "index.html": "/github.io/ToDo-List/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/github.io/ToDo-List/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.a7f1485e.chunk.js.LICENSE.txt": "/github.io/ToDo-List/static/js/2.a7f1485e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/github.io/ToDo-List/static/media/logo.6ce24c58.svg"
+    "main.css": "/ToDo-List/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/ToDo-List/static/js/main.8f424291.chunk.js",
+    "main.js.map": "/ToDo-List/static/js/main.8f424291.chunk.js.map",
+    "runtime-main.js": "/ToDo-List/static/js/runtime-main.554afd8a.js",
+    "runtime-main.js.map": "/ToDo-List/static/js/runtime-main.554afd8a.js.map",
+    "static/js/2.a7f1485e.chunk.js": "/ToDo-List/static/js/2.a7f1485e.chunk.js",
+    "static/js/2.a7f1485e.chunk.js.map": "/ToDo-List/static/js/2.a7f1485e.chunk.js.map",
+    "static/js/3.c68d6686.chunk.js": "/ToDo-List/static/js/3.c68d6686.chunk.js",
+    "static/js/3.c68d6686.chunk.js.map": "/ToDo-List/static/js/3.c68d6686.chunk.js.map",
+    "index.html": "/ToDo-List/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/ToDo-List/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.a7f1485e.chunk.js.LICENSE.txt": "/ToDo-List/static/js/2.a7f1485e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ToDo-List/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ba560bf5.js",
+    "static/js/runtime-main.554afd8a.js",
     "static/js/2.a7f1485e.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.8f424291.chunk.js"

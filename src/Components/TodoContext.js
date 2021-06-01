@@ -42,7 +42,7 @@ function todoReducer(state, action) {
 export function TodoProvider({children}) {
     const [state, dispatch] = useReducer(todoReducer, initialTodo)
     const nextId = useRef(5)
-    
+
     return(
         <TodoStateContext.Provider value={state}>
             <TodoDispatchContext.Provider value={dispatch}>
@@ -70,7 +70,7 @@ export function useTodoDispatch() {
     return context
 }
 
-export function useNextId() {
+export function useTodoNextId() {
     const context = useContext(TodoNextIdContext)
     if(!context) {
         throw new Error('Cannot find TodoProvider(TodoNextIdContext)')
